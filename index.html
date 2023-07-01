@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/icono.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- ====== SWIPER ====== -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
+
+  <!-- =========== JQUERY =========== -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+  <!-- ========= GSAP =============== -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    
+    <title>Más Hidrogeno Verde</title>
+  </head>
+  <body>
+
+    <!-- ============ MENU ================== -->
+    <section id="menu" class="menu">
+      <div class="menu-header">
+          <img class="menu-logo" src="assets/logoHV.svg" alt="logoMenu">
+        <div id="close-menu" class="cross">
+          <img src="assets/close.svg" alt="close">
+          <p class="text-close">Cerrar</p>
+        </div>
+      </div>
+        
+      <div class="menu-content">
+          <div class="menu-column">
+            <ul class="menu-list">
+              <li>
+                <a class="menu-item selected-item" href="index.html">Inicio</a>
+              </li>
+              <li>
+                <a class="menu-item" href="produccion.html">¿Cómo se produce el hidrógeno verde?</a>
+              </li>
+              <li>
+                <a class="menu-item" href="hidrogenoMexico.html">El Hidrógeno Verde en México</a>
+              </li>
+            </ul>
+          </div>
+          <div class="menu-column">
+            <p class="menu-subtitle">Contacto Directo</h2>
+            <p class="menu-text">+52 477 412 8596</p>
+            <p class="menu-text">+52 477 523 8596</p>
+            <p class="menu-text" style="margin-bottom: 3rem;">+52 477 412 8596</p>
+            <br><br>
+            <p class="menu-subtitle">Dirección de Correo Electrónico</p>
+            <p class="menu-text">hidrogenovmexico@gmail.com</p>
+            <p class="menu-text" style="margin-bottom: 7rem;">mashidrogenoverde@gmail.com</p>
+            <p class="menu-subtitle-copy">© 2022 + Hidrógeno Verde <br>Todos los derechos reservados</p>
+          </div>
+      </div>
+    </section>
+
+    <!-- ============== NAV ================ -->
+    <header>
+      <nav>
+        <div style="width: 30px; height: 10px"></div>
+        <div class="logo-nav">
+          <img style="margin-left: 2rem;" class="hv-nav" src="assets/newLogo.svg" alt="main-logo" />
+        </div>
+        <div id="show-menu" class="menu-container-logo">
+          <img class="menu-nav-icon" src="assets/circle.svg" alt="circle" srcset="" />
+          <h5 class="menu-nav-text">MENU</h5>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ========== MAIN ============= -->
+    <main>
+      
+      <section id="main-banner">
+        <img class="img-banner" src="assets/heroHome.jpg" alt="bannerHome" />
+        <div class="content-banner">
+          <p class="main-title">
+            HIDROGENO <br />
+            VERDE
+          </p>
+          <p class="subtitle-banner">GRAN CAMBIO</p>
+          <p class="general-text">
+            Da clic en "Ver más" para descargar un PDF que contiene toda la información que necesitas para
+            saber más a detalle que es el hidrogeno verde.
+          </p>
+          <a target="_blank" href="El hidrógeno verde como energía asequible y no contaminanteV2 (1).pdf" style="text-decoration: none;">
+            <h5 class="link-banner">LEER MÁS</h5>
+          </a>
+        </div>
+      </section>
+
+      <section id="what-is">
+        <img class="hecta-what absolute" src="assets/hecta.svg" alt="hecta" />
+        <img class="cont1 absolute" src="assets/continent-1.svg" alt="cont1" />
+        <img class="cont2 absolute" src="assets/continent-2.svg" alt="cont2" />
+        <h6>¿QUÉ ES?</h6>
+        <h1 class="big-title">
+          UNA NUEVA ALTERNATIVA, <br />
+          UN GRAN PROBLEMA
+        </h1>
+        <div class="cols-content">
+          <div class="col">
+            <p class="green-text">
+              El <b>hidrógeno</b> es el <b>elemento</b> químico
+              <b>más abundante</b> en la Tierra y está presente en el 75% de
+              toda la materia.
+            </p>
+            <p class="green-text">
+              Sin embargo, nunca lo encontramos solo, sino junto con otros
+              elementos químicos, como el agua formadora de oxígeno o los
+              compuestos orgánicos formadores de carbono.
+            </p>
+          </div>
+          <div class="col">
+            <p class="green-text">
+              El <b>"verdor"</b> de hidrógeno <b>"verde"</b>, popular hoy en
+              día, se refiere al
+              <b>proceso específico de síntesis por electrólisis del agua</b>.
+            </p>
+            <p class="green-text">
+              De hecho, el proceso de producción de hidrógeno solo se denomina
+              "verde" cuando la electricidad aplicada proviene de una fuente
+              como el agua.
+            </p>
+          </div>
+          <div class="col">
+            <p class="green-text">
+              Por cierto, no muchos en nuestro tiempo. Hoy, el
+              <b>76% del hidrógeno</b> se <b>produce</b> a partir de
+              <b>gas natural</b> y el <b>23%</b> a partir de <b>carbón</b>.
+            </p>
+          </div>
+        </div>
+        <a id="btn-outline" href="produccion.html">¿Cómo se produce?</a>
+      </section>
+
+      <section id="benefits">
+        <div class="col">
+          <img id="world" src="assets/mundoCompleto.svg" alt="mundoCompleto" />
+        </div>
+        <div style="padding-top: 5rem" class="col-benefits-text">
+          <p class="big-title">¿POR QUÉ DEBEMOS USAR EL HIDROGENO VERDE?</p>
+          <p class="benefits-text">
+            Uno de los principales atractivos del <b>hidrógeno</b> es su
+            <b>versatilidad</b>, ya que no solo se puede usar como vector
+            energético, sino también como materia prima, por lo que
+            <b
+              >puede implementarse en casi todos los sectores que hoy en día
+              dependen de los combustibles fósiles</b
+            >
+            y son difíciles de descarbonizar. El hidrógeno verde reivindica su
+            potencial por todas estas ventajas que lo caracterizan.
+          </p>
+
+          <div class="benefits-container">
+            <p class="outline-title">ENERGÍA LIMPIA</p>
+            <p class="benefit-text">Es el único residuo que genera agua</p>
+          </div>
+
+          <div class="benefits-container">
+            <p class="outline-title">ENERGÍA RENOVABLE</p>
+            <p class="benefit-text">
+              Utiliza recursos de la naturaleza que no se agotan.
+            </p>
+          </div>
+
+          <div class="benefits-container">
+            <p class="outline-title">ES ALMACENABLE</p>
+            <p class="benefit-text">
+              El hidrógeno verde se puede comprimir en tanques durante mucho
+              tiempo.
+            </p>
+          </div>
+
+          <div class="benefits-container">
+            <p class="outline-title">ES TRANSPORTABLE</p>
+            <p class="benefit-text">
+              Gracias a que es un elemento muy ligero, los tanques de hidrógeno
+              comprimido permiten un manejo más sencillo que las baterías de
+              litio porque son más ligeros y, como consecuencia, su transporte.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- =============== ABOUT =============== -->
+      <section id="about-us">
+        <p class="big-title">
+          CONOCE A NUESTRO <br />
+          EQUIPO
+        </p>
+        <p class="green-text-about">
+          Somos un grupo de estudiantes, que están apasionados por buscar
+          soluciones que ayuden y salven a nuestro planeta.
+        </p>
+
+        <!-- Swiper -->
+    <div class="swiper testimonial-swiper">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="card-about">
+            <img class="team-img" src="assets/perfil8.jpg" alt="profile">
+            <p class="about-name">Ricardo González Flores</p>
+            <p class="about-text">Estudiante en Ing. de Desarrollo de Software</p>
+            <div class="icons">
+
+                <a href="#">
+                    <img class="about-icon" src="assets/bytesize_twitter.svg" alt="twitter">
+                </a>
+                <a href="#">
+                    <img class="about-icon" src="assets/mdi_gmail.svg" alt="gmail">
+                </a>
+            </div>
+        </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card-about">
+            <img class="team-img" src="assets/perfil7.jpg" alt="profile">
+            <p class="about-name">Carlos Ernesto González Flores</p>
+            <p class="about-text">Estudiante en Ing. de Desarrollo de Software</p>
+            <div class="icons">
+
+                <a href="#">
+                    <img class="about-icon" src="assets/bytesize_twitter.svg" alt="twitter">
+                </a>
+                <a href="#">
+                    <img class="about-icon" src="assets/mdi_gmail.svg" alt="gmail">
+                </a>
+            </div>
+        </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card-about">
+            <img class="team-img" src="assets/perfil3.jpg" alt="profile">
+            <p class="about-name">Efraín Joseph Camargo</p>
+            <p class="about-text">Estudiante en Ing. de Desarrollo de Software</p>
+            <div class="icons">
+
+                <a href="#">
+                    <img class="about-icon" src="assets/bytesize_twitter.svg" alt="twitter">
+                </a>
+                <a href="#">
+                    <img class="about-icon" src="assets/mdi_gmail.svg" alt="gmail">
+                </a>
+            </div>
+        </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card-about">
+            <img class="team-img" src="assets/perfil5.jpg" alt="profile">
+            <p class="about-name">Andrés Manuel Coredero Ramírez</p>
+            <p class="about-text">Estudiante en Ing. de Desarrollo de Software</p>
+            <div class="icons">
+
+                <a href="#">
+                    <img class="about-icon" src="assets/bytesize_twitter.svg" alt="twitter">
+                </a>
+                <a href="#">
+                    <img class="about-icon" src="assets/mdi_gmail.svg" alt="gmail">
+                </a>
+            </div>
+        </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card-about">
+            <img class="team-img" src="assets/perfil6.jpg" alt="profile">
+            <p class="about-name">Cristian Axel González Rodríguez</p>
+            <p class="about-text">Estudiante en Ing. de Desarrollo de Software</p>
+            <div class="icons">
+
+                <a href="#">
+                    <img class="about-icon" src="assets/bytesize_twitter.svg" alt="twitter">
+                </a>
+                <a href="#">
+                    <img class="about-icon" src="assets/mdi_gmail.svg" alt="gmail">
+                </a>
+            </div>
+        </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card-about">
+            <img class="team-img" src="assets/perfil1.jpg" alt="profile">
+            <p class="about-name">César Elizarraraz Acosta</p>
+            <p class="about-text">Estudiante en Ing. de Desarrollo de Software</p>
+            <div class="icons">
+
+                <a href="#">
+                    <img class="about-icon" src="assets/bytesize_twitter.svg" alt="twitter">
+                </a>
+                <a href="#">
+                    <img class="about-icon" src="assets/mdi_gmail.svg" alt="gmail">
+                </a>
+            </div>
+        </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card-about">
+            <img class="team-img" src="assets/perfil4.jpg" alt="profile">
+            <p class="about-name">Fernando Guadalupe Miramontes Castro </p>
+            <p class="about-text">Estudiante en Ing. de Desarrollo de Software</p>
+            <div class="icons">
+
+                <a href="#">
+                    <img class="about-icon" src="assets/bytesize_twitter.svg" alt="twitter">
+                </a>
+                <a href="#">
+                    <img class="about-icon" src="assets/mdi_gmail.svg" alt="gmail">
+                </a>
+            </div>
+        </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card-about">
+            <img class="team-img" src="assets/perfil2.jpg" alt="profile">
+            <p class="about-name">Alfonso Cano Vargas</p>
+            <p class="about-text">Estudiante en Ing. de Desarrollo de Software</p>
+            <div class="icons">
+
+                <a href="#">
+                    <img class="about-icon" src="assets/bytesize_twitter.svg" alt="twitter">
+                </a>
+                <a href="#">
+                    <img class="about-icon" src="assets/mdi_gmail.svg" alt="gmail">
+                </a>
+            </div>
+        </div>
+        </div>
+        
+        
+      </div>
+      <!-- <div class="swiper-pagination"></div> -->
+      <div class="swiper-button-next">
+        <img class="swiper-arrow" src="assets/arrow-next.svg" alt="next">
+      </div>
+      <div class="swiper-button-prev">
+        <img class="swiper-arrow" src="assets/arrow-prev.svg" alt="prev"></i>
+      </div>
+    </div>
+      </section>
+
+    </main>
+    
+    <!-- ============ FOOTER ============ -->
+    <footer>
+      <img src="assets/imgDerechaU.svg" alt="" class="img-01" />
+      <img src="assets/imgIzquierdaP.svg" alt="" class="img-02" />
+      <img src="assets/imgDerechaP.svg" alt="" class="img-03" />
+      <img src="assets/imIzquierdaU.svg" alt="" class="img-04" />
+      <div class="footer-content">
+        <img class="footer-logo" src="assets/logoHV.svg" alt="" srcset="">
+        <div class="footer-sec">
+          <div class="footer-news">
+            <p class="footer-main-title">¿Te gustaría recibir noticias <br> sobre el hidrógeno verde?</p>
+            <p class="footer-text">Suscríbete para recibir las noticias más actualizadas y los proyectos con hidrógeno verde que están por cambiar al mundo.</p>
+            <form class="footer-form" action="">
+              <input required class="footer-input" type="email" placeholder="Correo electrónico">
+              <button class="footer-btn">Suscríbete</button>
+            </form>
+          </div>
+          <div class="footer-discover">
+            <p class="footer-subtitle">DESCUBRE MÁS</p>
+            <ul>
+              <li>
+                <a class="discover-item" href="#">Inicio</a>
+              </li>
+              <li>
+                <a class="discover-item" href="#">Sobre Nosotros</a>
+              </li>
+              <li>
+                <a class="discover-item" href="#">¿Cómo se produce el hidrógeno verde?</a>
+              </li>
+              <li>
+                <a class="discover-item" href="#">El Hidrogeno Verde en México</a>
+              </li>
+              <li>
+                <a class="discover-item" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-sec-2">
+
+          <div class="footer-ico">
+            <img src="assets/phone.svg" alt="phone-icon">
+            <div>
+              <p class="footer-ico-title">Contacto directo</p>
+              <p class="footer-ico-text">+52 477 412 2589</p>
+            </div>
+          </div>
+
+          <div class="footer-ico">
+            <img src="assets/mexico.svg" alt="mexico-icon">
+            <div>
+              <p class="footer-ico-title">Orgullosamente mexicanos</p>
+              <p class="footer-ico-text">Queremos concientizar a las personas para cuidar el planeta</p>
+            </div>
+          </div>
+
+          <div class="footer-ico">
+            <img src="assets/support.svg" alt="support-icon">
+            <div>
+              <p class="footer-ico-title">¿Te gustaría apoyar?</p>
+              <p class="footer-ico-text">Mandanos mensaje a hidrogenovmexico@gmail.com</p>
+            </div>
+          </div>
+
+        </div>
+        <p class="footer-copy">© 2022 + Hidrógeno Verde</p>
+      </div>
+    </footer>
+
+
+    <!-- ========= Swiper ========= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.2.0/swiper-bundle.min.js" integrity="sha512-XHnWZWvy5TkCnPgLU7XsWhGAks1JQ3uFutVxRSH0Z4+djsGkCkxVsYu+JgfrDicvbCmjfUf1HeMWYUvUYKgjzQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Boxicons -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <script src="main.js"></script>
+
+  </body>
+</html>
